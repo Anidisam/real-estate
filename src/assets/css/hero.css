@@ -1,0 +1,147 @@
+.hero-section {
+  display: flex;
+  height: 100vh;
+  color: #fff;
+  margin: -8px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.hero-left {
+  flex: 3;
+  background-color: #000000;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-right {
+  flex: 2;
+  background-color: #FF3F3F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  margin-bottom: 1.5rem;
+}
+
+/* Updated search bar styling with location icon */
+.search-bar {
+  position: relative;
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.location-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.8rem 3rem 0.8rem 2.5rem; /* Space for icon and button */
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-button {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.statistics {
+  display: flex;
+  gap: 2rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat h4 {
+  font-size: 1rem;
+}
+
+.house-image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-5%);
+  height: 30rem;
+  width: 40rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column; /* Stack elements vertically */
+    height: auto; /* Allow height to adjust */
+  }
+
+  .hero-left {
+    flex: 1; /* Allow left side to take full width */
+    padding: 2rem; /* Adjust padding */
+  }
+
+  .hero-right {
+    flex: 1; /* Allow right side to take full width */
+    padding: 1rem; /* Adjust padding */
+  }
+
+  .hero-title {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .hero-description {
+    margin-bottom: 1rem; /* Adjust margin */
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .search-bar {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .statistics {
+    flex-direction: column; /* Stack statistics vertically */
+    gap: 1rem; /* Adjust gap */
+  }
+
+  .stat h1 {
+    font-size: 1.5rem; /* Adjust font size for stats */
+  }
+
+  .stat h4 {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .house-image {
+    height: 20rem; /* Adjust image size */
+    width: auto; /* Auto width */
+    margin-top: 1rem; /* Add some margin */
+  }
+}
