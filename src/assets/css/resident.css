@@ -1,0 +1,93 @@
+.resident-section {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.resident-top-section {
+  background-color: #000;
+  padding: 2rem;
+}
+
+.resident-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.explore-more {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.resident-cards {
+  margin-top: 2rem;
+}
+
+.resident-card {
+  background-color: #fff;
+  color: #333;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.price-tag {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card-line {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  color: #888;
+}
+
+.card-details .icon {
+  margin-left: 0.5rem;
+}
+
+.resident-bottom-section {
+  background-color: #000;
+  padding: 2rem;
+}
+
+.resident-line {
+  border-top: 2px solid #888;
+  margin: 2rem 0;
+}
+
+.bottom-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.bottom-image img {
+  width: 100%;
+  height: auto;
+  max-width: 70px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .resident-title,
+  .explore-more {
+    font-size: 1.5rem;
+  }
+
+  .card-details {
+    font-size: 0.8rem;
+  }
+
+  .bottom-images {
+    flex-wrap: wrap;
+  }
+}
