@@ -33,6 +33,7 @@
   width: 100%;
   height: 1px;
   background-color: #444;
+  margin: 2rem 0;
 }
 
 .footer-bottom {
@@ -43,6 +44,7 @@
   list-style-type: none;
   display: flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .footer-links li {
@@ -58,4 +60,56 @@
   margin-top: 2rem;
   font-size: 0.9rem;
   color: #777;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer-title {
+    font-size: 2rem;
+  }
+  
+  .footer-subtitle {
+    font-size: 1rem;
+  }
+
+  .email-input {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+  .join-button {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  
+  .footer-bottom {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .footer-links {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .footer-links li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-title {
+    font-size: 1.8rem;
+  }
+  
+  .footer-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .footer-links {
+    gap: 0.5rem;
+  }
 }
