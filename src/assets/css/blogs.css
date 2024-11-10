@@ -1,0 +1,36 @@
+.blogs-section {
+  padding: 40px 0;
+}
+
+.blogs-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.blog-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.blog-date {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.date-line {
+  width: 60px;
+  margin: 5px 0;
+}
+
+.blog-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.read-more-btn {
+  background-color: red;
+  border: none;
+  margin-top: 10px;
+}
